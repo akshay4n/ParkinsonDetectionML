@@ -1,2 +1,2 @@
 # ParkinsonDetectionML
-![img1](/visualizations/PCAVariance.jpg)<br>
+![img1](/visualizations/PCAVariance.png)<br>
