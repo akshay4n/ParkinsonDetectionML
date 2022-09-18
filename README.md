@@ -1,8 +1,7 @@
-Parkinsons' Disease Detection using Machine Learning
-<br>
+# Parkinsons' Disease Detection using Machine Learning
 In this project we compare multiple classifier algorithms and analyze their accuracy, namely; SVM classifier, Random forest classifier, Decision tree, Naive bayes and Neural network.
 <br>
-Objectives
+## Objectives
 * Build a model to detect the presence of Parkinson’s disease in an individual.
 * Early Detection of the disease to facilitate clinical monitoring of elderly people and increase their life span.
 * Compare multiple classifier algorithms and analyze their accuracy.
@@ -10,7 +9,7 @@ Objectives
 The following table shows some previous works associated with the topic:<br>
 ![img1](/visualizations/relatedWorks.jpg)
 
-Methodology:<br>
+## Methodology:<br>
 1. Data-set information<br> Disease Classification (DC) Dataset, Multiple Sound Recording (MSR) Dataset, Telemonitoring (TE) Dataset
 2. Analyzing data-sets
 3. Data visualization and covariance matrices
@@ -24,8 +23,9 @@ Methodology:<br>
     4. Naive Bayes
     5. Neural Network
 
-EXPERIMENTAL RESULTS AND ANALYSIS 
+## Experimental Results and Analysis
 <br>
+
 * Correlation Matrices
     * Multiple Sound Recording Datasets for Training Correlation Matrix:<br>![img1](/visualizations/multiple-sound-recoring-train-correlation-matrix.jpg)<br>
     * Multiple Sound Recording Datasets for Testing Correlation Matrix:<br>![img1](/visualizations/multiple-sound-recoring-test-correlation-matrix.jpg)<br>
@@ -39,7 +39,7 @@ EXPERIMENTAL RESULTS AND ANALYSIS
 
     * Accuracy of algorithms after combination of MSR and TE datasets:<br>![img1](/visualizations/g2.png)
 
-Concluding Remarks:<br>
+## Concluding Remarks:<br>
 * In this project, we leverage several unsupervised techniques, like PCA, LDA, etc. and supervised techniques, like SVM, Naıve Bayes, etc. for predicting Parkinson’s disease using the data of speech analysis. These methods provide highly accurate results.
 * But there are some limitations in the methods in its robustness. That is, all of the models are based on two dataset Telemonitoring (TE) and Multiple Sound Recording (MSR).The model is easily influenced by longer samples, pitches of numerous range and some other data variance. The Jitter, Shimmer and Harmonicity features are not sufficient enough to detect the Parkinson’s disease, which was shown during the analsis of the dataset. But when considered the information of autocorrelation, range of the pitch, voice breaks, etc. makes the data more accurate.
 * The project being highly accurate, reliable and efficient in detecting Parkinson’s disease, helps in early diagnosis of the deadly disease and serves the purpose of Artificial Intelligence and Machine Learning in the medical field.
